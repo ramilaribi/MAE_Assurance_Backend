@@ -1,0 +1,41 @@
+{
+  "name": "backend_mae",
+  "version": "1.0.0",
+  "description": "assurance_mae",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bad-words": "^3.0.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.2.0",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "memory-cache": "^0.2.0",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "natural": "^6.12.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.7",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "redis": "^4.6.13",
+    "sightengine": "^1.3.1",
+    "spdy": "^4.0.2",
+    "stripe": "^15.11.0",
+    "twilio": "^4.19.0"
+  }
+}
